@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/ksator/event_driven_junos_device_maintenance_with_appformix_northstar_python.svg?branch=master)](https://travis-ci.org/ksator/event_driven_junos_device_maintenance_with_appformix_northstar_python)
-
 ## Documentation structure
 [**About this repo**](README.MD#about-this-repo)  
 [**Building blocks**](README.MD#building-blocks)  
@@ -11,8 +9,6 @@
 [**Event driven automation**](README.MD#event-driven-automation)  
 [**How to reproduce the event driven automation demo**](README.MD#how-to-reproduce-the-event-driven-automation-demo)  
 [**Unplanned maintenance operations demo**](README.MD#unplanned-maintenance-operations-demo)  
-[**Continuous integration with Travis CI**](README.MD#continuous-integration-with-travis-ci)  
-[**Looking for more automation solutions**](README.MD#looking-for-more-automation-solutions)  
 
 ## About this repo
 
@@ -297,18 +293,3 @@ Here's the output of [**webhook_listener.py**](webhook_listener.py) for this web
 
 The "faulty" device is now in maintenance mode. Northstar GUI: 
 ![maintenance.png](resources/maintenance.png)  
-
-## Continuous integration with Travis CI
-
-There is a github webhook with Travis CI  
-The syntax of the python scripts in this repository is tested automatically by Travis CI.  
-The files [**.travis.yml**](.travis.yml) and [**requirements.txt**](requirements.txt) at the root of this repository are used for this.  
-
-Here's the last build status  
-[![Build Status](https://travis-ci.org/ksator/event_driven_junos_device_maintenance_with_appformix_northstar_python.svg?branch=master)](https://travis-ci.org/ksator/event_driven_junos_device_maintenance_with_appformix_northstar_python)
-
-## Looking for more automation solutions
-
-https://github.com/ksator?tab=repositories  
-https://gitlab.com/users/ksator/projects  
-https://gist.github.com/ksator/  
