@@ -9,8 +9,6 @@
 [**Event driven automation**](README.MD#event-driven-automation)  
 [**How to reproduce the event driven automation demo**](README.MD#how-to-reproduce-the-event-driven-automation-demo)  
 [**Unplanned maintenance operations demo**](README.MD#unplanned-maintenance-operations-demo)  
-[**Continuous integration with Travis CI**](README.MD#continuous-integration-with-travis-ci)  
-[**Looking for more automation solutions**](README.MD#looking-for-more-automation-solutions)  
 
 ## About this repo
 
