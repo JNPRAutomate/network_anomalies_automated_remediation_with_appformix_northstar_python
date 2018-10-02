@@ -9,6 +9,8 @@
 [**Event driven automation**](README.MD#event-driven-automation)  
 [**How to reproduce the event driven automation demo**](README.MD#how-to-reproduce-the-event-driven-automation-demo)  
 [**Unplanned maintenance operations demo**](README.MD#unplanned-maintenance-operations-demo)  
+[**Continuous integration with Travis CI**](README.MD#continuous-integration-with-travis-ci)  
+[**Looking for more automation solutions**](README.MD#looking-for-more-automation-solutions)  
 
 ## About this repo
 
@@ -55,7 +57,7 @@ This repository uses the following main building blocks:
 Run these commands to clone this repository:
 ```
 sudo -s
-git clone https://github.com/ksator/appformix_northstar_python_event_driven_device_maintenance.git 
+git clone https://github.com/JNPRAutomate/network_anomalies_automated_remediation_with_appformix_northstar_python.git
 ```
 
 ## Requirements to use this repository 
@@ -63,7 +65,7 @@ git clone https://github.com/ksator/appformix_northstar_python_event_driven_devi
 Run these commands to install the python library junos-eznc (also know as PyEZ) and its dependencies.
 ```
 sudo -s
-cd appformix_northstar_python_event_driven_device_maintenance
+cd network_anomalies_automated_remediation_with_appformix_northstar_python
 apt-get update && apt-get upgrade
 apt-get install -y python-dev libxml2-dev python-pip libxslt1-dev build-essential libssl-dev libffi-dev git curl
 pip install -r requirements.txt
@@ -293,3 +295,5 @@ Here's the output of [**webhook_listener.py**](webhook_listener.py) for this web
 
 The "faulty" device is now in maintenance mode. Northstar GUI: 
 ![maintenance.png](resources/maintenance.png)  
+
+
